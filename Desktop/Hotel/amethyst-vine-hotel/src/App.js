@@ -13,6 +13,7 @@ import SignIn from './Components/User/Client/User/SignIn';
 import Book from './Components/User/Client/RoomBooking/Book';
 import Confirm from './Components/User/Client/RoomBooking/Confirm';
 import Payment from './Components/User/Client/RoomBooking/Payment';
+import Reservation from './Components/User/Client/ResturantReservation/Reservation';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/room" element={<Room />} />
           <Route path="/eats" element={<Eats />} />
+          <Route path="/reservation/:restaurantName" element={<Reservation />} />
           <Route path="/relax" element={<Relax />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />

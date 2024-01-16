@@ -1,0 +1,38 @@
+/* Eats.css */
+
+.card {
+    width: 18rem;
+    margin-right: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom for space between cards */
+  }
+  
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .btn-book-reservation {
+    background-color: black;
+    color: white;
+    margin-top: 15px; /* Add margin to the top of the button */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .card-deck {
+      justify-content: center;
+    }
+  }
+  
